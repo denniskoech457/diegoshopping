@@ -1,0 +1,144 @@
+#navbar {
+    background-color: pink;
+    color: black;
+    width: 100%;
+    flex-direction: row;
+    line-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.list-unstyled {
+    list-style-type: none;}
+.bg-dark {
+    color: black;
+    align-items: baseline;
+    text-align:center;
+
+}
+.jumbotron {
+    color: rgb(243, 111, 133);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    background-image: url("best-men-online-shopping-jcrew-luxe-digital.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 70px 30px 70px 30px;
+}
+.jumbotron h1{
+    text-align: center;
+    font-style: italic;
+    font-stretch: expanded;
+    font-display: flex;
+    color: rgb(241, 32, 137);
+}
+.more-items{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-size: 200%;
+}   
+
+.jumbotron form {
+    margin-left: 50%;
+}
+.shoping-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    
+    
+}
+.highlight-img {
+    border-bottom: 0.5px dotted;
+    background-color: white;
+    
+}
+.highlight-description {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border-bottom: 0.5px dotted;
+    color: black;
+    
+    
+  }
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(247, 76, 105);
+}
+.container {
+    background-color: white;
+}
+.shop-more {
+    color: black;
+    text-align: center;
+}
+.product-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(245, 245, 245);
+    padding: 3cm;
+
+}
+.product {
+    background-color:white;
+    margin: 1cm;
+}
+.product-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.img-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-detail a {
+    color: rgb(255, 94, 0);
+    padding-top: 2cm;
+    padding-right: 2cm;
+    font-size: 150%;
+    font-style: italic;
+    
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2cm;
+    padding-left: 2cm;
+    border-bottom: 0.5px dotted;
+}
+.detailsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-colo{
+    color: orangered;
+    background-color: whitesmoke;
+}
+.buttons{
+    color: orangered;
+    background-color: blanchedalmond;
+    font-weight: bolder
+}
