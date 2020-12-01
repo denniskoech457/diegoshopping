@@ -1,0 +1,107 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.jumbotron{
+    background-color: rgb(231, 223, 222);
+    color: salmon;
+}
+.jumbotron p {
+    font-size: 300%;
+    font-family: cursive;
+    text-align: center;
+}
+.upload-form{
+    color: hotpink;
+}
+ td, th,tr {
+    border: 1px solid black;
+    background-color:rgb(230, 215, 215);
+    height: 3cm;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  th {
+    height: 80px;
+  }
+  .delete{
+    display: inline;
+    background: #2705be;
+    border-radius: 4px;
+    padding: 5px 10px;
+    height: 15px;
+    line-height: 15px;
+    color: #fff;
+    margin-bottom: 1cm;
+  }
+  .edit{
+    display: inline;
+    border: none;
+    font-weight: 400;
+    background: #4e011a;
+    border-radius: 4px;
+    padding: 5px 10px;
+    height: 15px;
+    line-height: 15px;
+    color: #fff;
+  }
+  .footer{
+    background-color: pink;
+    color: black;
+    width: 100%;
+    flex-direction: row;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 1.5cm;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

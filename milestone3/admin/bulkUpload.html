@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./admin.css"/>
+    <script
+      src="icons\fontawesome.js"
+    ></script>
+    <title> DIEGO SHOPPING CENTRE</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">log out</a>
+        <a href="index.html">product edit</a>
+        <a href="#">bulk upload</a>
+
+
+      </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; account</span>
+<div class="jumbotron">
+    <p>Bulk Upload </p>
+</div>
+<section>
+    <form class="upload-form" >
+        <label for="name"><b>product name:</b></label><br>
+        <input type="text" size="30px" id="product" name="product"><br>
+        <label for="price"><b>Price of Product:</b></label><br>
+        <input type="number" id="Price" name="pwd"><br>
+        <label for="product description"><b>product description:</b></label><br>
+        <textarea rows="10" cols="30" > enter product description </textarea><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+</section>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
